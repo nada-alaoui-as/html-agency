@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.logo{
+  display: inline;
+  float: left;
+  width:250px;
+  height:250px;
+ 
+}
+h1 {
+  font-size: 5rem;
+  color:hotpink;
+  text-align: center;
+}
+span{
+  color: rgb(244,0,161);
+}
+h2{
+  font-size: 2.5rem;
+  color:  rgb(244,0,161);
+  text-align: center;
+}
+
+
+.tile-image{
+  float:left;
+  height: 300px;
+  width: 300px;
+  margin-right:10px;
+}
+.right{
+  float:right;
+}
+.left{
+  float:left;
+}
+.card{
+  width:45%;
+}
+
+.card-title{
+  color:hotpink;
+  margin-bottom:0px;
+  text-align: left;
+}
+
+hr {
+  display:inline;
+  color:hotpink;
+}
+footer{
+  clear:both;
+  color: rgb(244,0,161)
+}
+.f1{
+  float:right;
+}
+.f2{
+  float: left;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 200px;
+    height: 200px;;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;}}
+    .line {
+      border: none; /* To remove the default border */
+      border-top: 2px solid hotpink; /* Set the color and width of the top border */
+      margin-top: 20px; /* Adjust the margin as needed */
+      width: 100%; /* Make it span the full width of the container */
+  }
+  
+  
